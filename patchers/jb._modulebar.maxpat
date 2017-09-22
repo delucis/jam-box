@@ -116,7 +116,7 @@
 						"parameter_enable" : 0
 					}
 ,
-					"text" : "dict wb.cues jam-data.json"
+					"text" : "dict jb.cues jam-data.json"
 				}
 
 			}
@@ -186,7 +186,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 15.0, 75.0, 345.0, 20.0 ],
-					"text" : "patcherargs wb._template \"short description of module function\""
+					"text" : "patcherargs jb._template \"short description of module function\""
 				}
 
 			}
@@ -204,7 +204,7 @@
 					"patching_rect" : [ 15.0, 165.0, 98.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 0.0, 150.0, 20.0 ],
-					"text" : "wb._template",
+					"text" : "jb._template",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 

@@ -328,7 +328,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 15.0, 30.0, 99.0, 20.0 ],
-					"text" : "receive wb.hooks"
+					"text" : "receive jb.hooks"
 				}
 
 			}
@@ -440,7 +440,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "bang" ],
 									"patching_rect" : [ 120.0, 75.0, 82.0, 20.0 ],
-									"text" : "wb._getcuelist"
+									"text" : "jb._getcuelist"
 								}
 
 							}
@@ -745,7 +745,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 480.0, 30.0, 99.0, 20.0 ],
-					"text" : "receive wb.hooks"
+					"text" : "receive jb.hooks"
 				}
 
 			}
@@ -785,7 +785,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 15.0, 315.0, 86.0, 20.0 ],
-					"text" : "send wb.hooks"
+					"text" : "send jb.hooks"
 				}
 
 			}
@@ -879,10 +879,10 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "wb.masterctrl", "main control panel for cue playback control" ],
+					"args" : [ "jb.masterctrl", "main control panel for cue playback control" ],
 					"id" : "obj-1",
 					"maxclass" : "bpatcher",
-					"name" : "wb._modulebar.maxpat",
+					"name" : "jb._modulebar.maxpat",
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"patching_rect" : [ 0.0, 0.0, 720.0, 20.0 ]
@@ -1076,21 +1076,21 @@
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "wb._modulebar.maxpat",
+				"name" : "jb._modulebar.maxpat",
 				"bootpath" : "/Users/chris/Documents/Max/Packages/jam-box/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "wb._getcuelist.maxpat",
+				"name" : "jb._getcuelist.maxpat",
 				"bootpath" : "/Users/chris/Documents/Max/Packages/jam-box/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "wb._dict.maxpat",
+				"name" : "jb._dict.maxpat",
 				"bootpath" : "/Users/chris/Documents/Max/Packages/jam-box/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",

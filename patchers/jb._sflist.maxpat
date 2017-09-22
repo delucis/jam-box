@@ -438,7 +438,7 @@
 					"outlettype" : [ "dictionary", "", "", "" ],
 					"patching_rect" : [ 480.0, 330.0, 61.5, 22.0 ],
 					"style" : "",
-					"text" : "wb._sfdict"
+					"text" : "jb._sfdict"
 				}
 
 			}
@@ -913,9 +913,9 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 240.0, 330.0, 130.0, 22.0 ],
-					"save" : [ "#N", "sflist~", "wb.sflist", 483840, ";" ],
+					"save" : [ "#N", "sflist~", "jb.sflist", 483840, ";" ],
 					"style" : "",
-					"text" : "sflist~ wb.sflist 120960"
+					"text" : "sflist~ jb.sflist 120960"
 				}
 
 			}
@@ -985,7 +985,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "wb._sflist", "sound file preloader that reads from package’s /media directory" ],
+					"args" : [ "jb._sflist", "sound file preloader that reads from package’s /media directory" ],
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,
@@ -994,7 +994,7 @@
 					"id" : "obj-1",
 					"lockeddragscroll" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "wb._modulebar.maxpat",
+					"name" : "jb._modulebar.maxpat",
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
@@ -1243,13 +1243,13 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "wb._modulebar.maxpat",
+				"name" : "jb._modulebar.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/jam-box/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "wb._sfdict.maxpat",
+				"name" : "jb._sfdict.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/jam-box/patchers",
 				"type" : "JSON",
 				"implicit" : 1

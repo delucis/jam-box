@@ -105,10 +105,10 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "wb._dict", "wrapper around cue dictionary" ],
+					"args" : [ "jb._dict", "wrapper around cue dictionary" ],
 					"id" : "obj-7",
 					"maxclass" : "bpatcher",
-					"name" : "wb._modulebar.maxpat",
+					"name" : "jb._modulebar.maxpat",
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"patching_rect" : [ 0.0, 0.0, 720.0, 20.0 ]
@@ -204,7 +204,7 @@
 						"parameter_enable" : 0
 					}
 ,
-					"text" : "dict wb.cues jam-data.json"
+					"text" : "dict jb.cues jam-data.json"
 				}
 
 			}
@@ -366,7 +366,7 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "wb._modulebar.maxpat",
+				"name" : "jb._modulebar.maxpat",
 				"bootpath" : "/Users/chris/Documents/Max/Packages/jam-box/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",

@@ -37,7 +37,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 150.0, 285.0, 70.0, 20.0 ],
-					"text" : "send~ wb.R"
+					"text" : "send~ jb.R"
 				}
 
 			}
@@ -50,7 +50,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 75.0, 285.0, 68.0, 20.0 ],
-					"text" : "send~ wb.L"
+					"text" : "send~ jb.L"
 				}
 
 			}
@@ -605,10 +605,10 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "wb._speakertest", "send noise bursts to speakers" ],
+					"args" : [ "jb._speakertest", "send noise bursts to speakers" ],
 					"id" : "obj-1",
 					"maxclass" : "bpatcher",
-					"name" : "wb._modulebar.maxpat",
+					"name" : "jb._modulebar.maxpat",
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"patching_rect" : [ 0.0, 0.0, 720.0, 20.0 ]
@@ -930,7 +930,7 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "wb._modulebar.maxpat",
+				"name" : "jb._modulebar.maxpat",
 				"bootpath" : "/Users/chris/Documents/Max/Packages/jam-box/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",

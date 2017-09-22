@@ -30,10 +30,10 @@
 		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
-					"args" : [ "wb._template", "short description of module function" ],
+					"args" : [ "jb._template", "short description of module function" ],
 					"id" : "obj-1",
 					"maxclass" : "bpatcher",
-					"name" : "wb._modulebar.maxpat",
+					"name" : "jb._modulebar.maxpat",
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"patching_rect" : [ 0.0, 0.0, 720.0, 20.0 ]

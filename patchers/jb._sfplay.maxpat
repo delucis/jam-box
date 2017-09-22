@@ -472,7 +472,7 @@
 									"numoutlets" : 4,
 									"outlettype" : [ "dictionary", "", "", "" ],
 									"patching_rect" : [ 15.0, 105.0, 59.5, 20.0 ],
-									"text" : "wb._sfdict"
+									"text" : "jb._sfdict"
 								}
 
 							}
@@ -672,7 +672,7 @@
 									"numoutlets" : 4,
 									"outlettype" : [ "dictionary", "", "", "" ],
 									"patching_rect" : [ 15.0, 105.0, 59.5, 20.0 ],
-									"text" : "wb._sfdict"
+									"text" : "jb._sfdict"
 								}
 
 							}
@@ -866,17 +866,17 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "signal", "signal", "signal", "bang" ],
 					"patching_rect" : [ 15.0, 225.0, 199.0, 20.0 ],
-					"save" : [ "#N", "sfplay~", "wb.sflist", 2, 120960, 1, "", ";" ],
-					"text" : "sfplay~ wb.sflist 2 120960 1"
+					"save" : [ "#N", "sfplay~", "jb.sflist", 2, 120960, 1, "", ";" ],
+					"text" : "sfplay~ jb.sflist 2 120960 1"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "wb._sfplay", "sfplay~ wrapper to play back from sflist~ cues" ],
+					"args" : [ "jb._sfplay", "sfplay~ wrapper to play back from sflist~ cues" ],
 					"id" : "obj-1",
 					"maxclass" : "bpatcher",
-					"name" : "wb._modulebar.maxpat",
+					"name" : "jb._modulebar.maxpat",
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"patching_rect" : [ 0.0, 0.0, 720.0, 20.0 ]
@@ -1157,14 +1157,14 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "wb._modulebar.maxpat",
+				"name" : "jb._modulebar.maxpat",
 				"bootpath" : "/Users/chris/Documents/Max/Packages/jam-box/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "wb._sfdict.maxpat",
+				"name" : "jb._sfdict.maxpat",
 				"bootpath" : "/Users/chris/Documents/Max/Packages/jam-box/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",

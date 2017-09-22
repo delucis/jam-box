@@ -52,7 +52,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 15.0, 165.0, 86.0, 20.0 ],
-					"text" : "send wb.hooks"
+					"text" : "send jb.hooks"
 				}
 
 			}
@@ -65,7 +65,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 0,
 					"patching_rect" : [ 135.0, 135.0, 66.0, 20.0 ],
-					"text" : "wb._keyctrl"
+					"text" : "jb._keyctrl"
 				}
 
 			}
@@ -141,10 +141,10 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "wb.shortcuts", "GUI for keyboard shortcuts" ],
+					"args" : [ "jb.shortcuts", "GUI for keyboard shortcuts" ],
 					"id" : "obj-1",
 					"maxclass" : "bpatcher",
-					"name" : "wb._modulebar.maxpat",
+					"name" : "jb._modulebar.maxpat",
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"patching_rect" : [ 0.0, 0.0, 720.0, 20.0 ]
@@ -234,14 +234,14 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "wb._modulebar.maxpat",
+				"name" : "jb._modulebar.maxpat",
 				"bootpath" : "/Users/chris/Documents/Max/Packages/jam-box/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "wb._keyctrl.maxpat",
+				"name" : "jb._keyctrl.maxpat",
 				"bootpath" : "/Users/chris/Documents/Max/Packages/jam-box/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",

@@ -113,16 +113,16 @@
 					"numoutlets" : 5,
 					"outlettype" : [ "dictionary", "", "", "", "bang" ],
 					"patching_rect" : [ 15.0, 105.0, 73.0, 20.0 ],
-					"text" : "wb._dict"
+					"text" : "jb._dict"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "wb._version", "display package version" ],
+					"args" : [ "jb._version", "display package version" ],
 					"id" : "obj-1",
 					"maxclass" : "bpatcher",
-					"name" : "wb._modulebar.maxpat",
+					"name" : "jb._modulebar.maxpat",
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"patching_rect" : [ 0.0, 0.0, 720.0, 20.0 ]
@@ -201,14 +201,14 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "wb._modulebar.maxpat",
+				"name" : "jb._modulebar.maxpat",
 				"bootpath" : "/Users/chris/Documents/Max/Packages/jam-box/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "wb._dict.maxpat",
+				"name" : "jb._dict.maxpat",
 				"bootpath" : "/Users/chris/Documents/Max/Packages/jam-box/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",

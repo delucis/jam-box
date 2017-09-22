@@ -92,7 +92,7 @@
 									"numoutlets" : 5,
 									"outlettype" : [ "dictionary", "", "", "", "bang" ],
 									"patching_rect" : [ 15.0, 120.0, 73.0, 20.0 ],
-									"text" : "wb._dict"
+									"text" : "jb._dict"
 								}
 
 							}
@@ -334,7 +334,7 @@
 									"numoutlets" : 5,
 									"outlettype" : [ "dictionary", "", "", "", "bang" ],
 									"patching_rect" : [ 15.0, 120.0, 73.0, 20.0 ],
-									"text" : "wb._dict"
+									"text" : "jb._dict"
 								}
 
 							}
@@ -478,7 +478,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"patching_rect" : [ 15.0, 285.0, 71.0, 24.0 ],
-					"text" : "wb._sflist"
+					"text" : "jb._sflist"
 				}
 
 			}
@@ -636,7 +636,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 15.0, 15.0, 114.0, 20.0 ],
-									"text" : "receive wb.hooks"
+									"text" : "receive jb.hooks"
 								}
 
 							}
@@ -812,7 +812,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 420.0, 75.0, 98.0, 20.0 ],
-					"text" : "receive~ wb.R"
+					"text" : "receive~ jb.R"
 				}
 
 			}
@@ -881,7 +881,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 105.0, 75.0, 96.0, 20.0 ],
-					"text" : "receive~ wb.L"
+					"text" : "receive~ jb.L"
 				}
 
 			}
@@ -900,10 +900,10 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "wb.masterout", "main output volume & UI" ],
+					"args" : [ "jb.masterout", "main output volume & UI" ],
 					"id" : "obj-1",
 					"maxclass" : "bpatcher",
-					"name" : "wb._modulebar.maxpat",
+					"name" : "jb._modulebar.maxpat",
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"patching_rect" : [ 0.0, 0.0, 720.0, 20.0 ]
@@ -1042,28 +1042,28 @@
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "wb._modulebar.maxpat",
+				"name" : "jb._modulebar.maxpat",
 				"bootpath" : "/Users/chris/Documents/Max/Packages/jam-box/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "wb._sflist.maxpat",
+				"name" : "jb._sflist.maxpat",
 				"bootpath" : "/Users/chris/Documents/Max/Packages/jam-box/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "wb._sfdict.maxpat",
+				"name" : "jb._sfdict.maxpat",
 				"bootpath" : "/Users/chris/Documents/Max/Packages/jam-box/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "wb._dict.maxpat",
+				"name" : "jb._dict.maxpat",
 				"bootpath" : "/Users/chris/Documents/Max/Packages/jam-box/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
