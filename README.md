@@ -1,6 +1,6 @@
 # jam-box [![Build Status](https://travis-ci.org/delucis/jam-box.svg?branch=master)](https://travis-ci.org/delucis/jam-box)
 
-:violin: Sample playback for Clara Iannotta’s [_dead wasps in the jam-jar (ii)_](http://claraiannotta.com/works/orchestra/dead-wasps-in-the-jam-jar-ii-2016/).
+:violin: Sample playback for Clara Iannotta’s [_dead wasps in the jam-jar (iii)_](http://claraiannotta.com/works/orchestra/dead-wasps-in-the-jam-jar-ii-2016/).
 
 
 ## Installation
@@ -17,7 +17,7 @@ To install the `jam-box` package:
 
 ## Performance Set-up
 
-A performance of _dead wasps in the jam-jar (ii)_ requires the following technical set-up:
+A performance of _dead wasps in the jam-jar (iii)_ requires the following technical set-up:
 
 - a computer running the `jam-box` Max package
 - a stereo pair of loudspeakers within the orchestra for sound output
