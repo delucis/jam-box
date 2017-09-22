@@ -1,6 +1,6 @@
 {
   "name": "jam-box",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Sample playback for Clara Iannotta’s dead wasps in the jam-jar (iii).",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
