@@ -15,8 +15,8 @@ deploy:
   provider: releases
   api_key:
     secure: BOJ+DrUuCZD4RZA14salnnzsq9NdHRfsmCcBG/SAlNBcyzPcYJwChK1jM+t+duzqTTiRvGGGdpA+Dn8O9L9d0ypf3eoe/IsXopazoFOVyuQWw5gRs7CZlRuZeqkGiwyEaDUqa6B8nyJpwvREw6Y2EK9SbVEEDd/+JWU2TG97nYisVPezqoalP+8nGnPxAa8sdkH7lRPD5T7DXxINHeR7wZwyG7vBIfSxDvFsu/EP8oZKU2Hi2RZUV8ZzX3dRrmkwfC/oPK2Aepl5Qz0E607csRR5EuM0mBVJH443gEvE+vqt6sEPyEjvkW/s/zBBMz+m2HN2V6B5hZe2nnKd4SFgiChDcVl15VxA/wG3JuigMvzmulHpVNCSZBRuUa9Em+kh6U/s8GatNU/sr/hGUOrfUPDeHhrlC73zlGg2fsnLypPj+zC1KERYwkuWSUlOgSA/ipCpYzB0BccrzmLoiZN9Gnwoz+RlJl4Tzg8CUnchyGb3ZMQRhGAaLzQJM0PsqmtCSU/BisnjtIFu8Sr9f0d+rip2ccV+IvdBlTR1OTn6oVyZ+V1uw3GIEjgoj3ONyLhqGq80cZAlKSuGXmC4l2JK75jlli1D8RteavCQ19sz2IReIUkhW3OtJ2BiKGwSSe5+8Q14OGLdkYW8PTFk/6pv4XHmV06xagwpeHunmwRjp7U=
-  file: wasp-box.zip
+  file: jam-box.zip
   skip_cleanup: true
   on:
-    repo: delucis/wasp-box
+    repo: delucis/jam-box
     tags: true

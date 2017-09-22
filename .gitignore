@@ -1,6 +1,6 @@
 # Ignore build files
-wasp-box/
-wasp-box.zip
+jam-box/
+jam-box.zip
 
 # Created by https://www.gitignore.io/api/node
 

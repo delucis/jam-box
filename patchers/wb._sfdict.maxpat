@@ -179,7 +179,7 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "wb._modulebar.maxpat",
-				"bootpath" : "/Users/chris/Documents/Max/Packages/wasp-box/patchers",
+				"bootpath" : "/Users/chris/Documents/Max/Packages/jam-box/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1

@@ -1244,13 +1244,13 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "wb._modulebar.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/wasp-box/patchers",
+				"bootpath" : "~/Documents/Max 7/Packages/jam-box/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "wb._sfdict.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/wasp-box/patchers",
+				"bootpath" : "~/Documents/Max 7/Packages/jam-box/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}

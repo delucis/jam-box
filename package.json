@@ -1,20 +1,20 @@
 {
-  "name": "wasp-box",
+  "name": "jam-box",
   "version": "0.3.0",
   "description": "Sample playback for Clara Iannotta’s dead wasps in the jam-jar (ii).",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "npm run copy && npm run zip && npm run clean",
-    "copy": "cpy '**/*' '!wasp-box/*' '!.gitignore' '!.travis.yml' '!.gitattributes' '!node_modules/**/*' '!wasp-box.zip' 'wasp-box/' --parents --nodir",
-    "zip": "bestzip wasp-box.zip wasp-box/",
-    "clean": "rimraf wasp-box"
+    "copy": "cpy '**/*' '!jam-box/*' '!.gitignore' '!.travis.yml' '!.gitattributes' '!node_modules/**/*' '!jam-box.zip' 'jam-box/' --parents --nodir",
+    "zip": "bestzip jam-box.zip jam-box/",
+    "clean": "rimraf jam-box"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/delucis/wasp-box.git"
+    "url": "git+https://github.com/delucis/jam-box.git"
   },
   "author": "Chris Swithinbank <swithinbank@gmail.com> (http://chrisswithinbank.net/)",
-  "homepage": "https://github.com/delucis/wasp-box#readme",
+  "homepage": "https://github.com/delucis/jam-box#readme",
   "devDependencies": {
     "bestzip": "^1.1.3",
     "cpy-cli": "git+https://github.com/chimon2000/cpy-cli.git",
