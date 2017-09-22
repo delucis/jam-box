@@ -116,7 +116,7 @@
 						"parameter_enable" : 0
 					}
 ,
-					"text" : "dict wb.cues wasp-data.json"
+					"text" : "dict wb.cues jam-data.json"
 				}
 
 			}

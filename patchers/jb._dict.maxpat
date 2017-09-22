@@ -52,9 +52,9 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
-					"outlettype" : [ "wasp-data.json" ],
+					"outlettype" : [ "jam-data.json" ],
 					"patching_rect" : [ 45.0, 225.0, 133.0, 20.0 ],
-					"text" : "t wasp-data.json"
+					"text" : "t jam-data.json"
 				}
 
 			}
@@ -67,9 +67,9 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
-					"outlettype" : [ "int", "wasp-data.json" ],
+					"outlettype" : [ "int", "jam-data.json" ],
 					"patching_rect" : [ 30.0, 120.0, 143.0, 20.0 ],
-					"text" : "t 1 wasp-data.json"
+					"text" : "t 1 jam-data.json"
 				}
 
 			}
@@ -204,7 +204,7 @@
 						"parameter_enable" : 0
 					}
 ,
-					"text" : "dict wb.cues wasp-data.json"
+					"text" : "dict wb.cues jam-data.json"
 				}
 
 			}
