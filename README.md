@@ -23,27 +23,27 @@ A performance of _dead wasps in the jam-jar (iii)_ requires the following techni
 - a stereo pair of loudspeakers within the orchestra for sound output
 
 
-## Operating the Wasp Box
+## Operating the Jam Box
 
 ### Getting Started
 
 1. Open **Max**.
 
-2. Select **Wasp Box** from the **Extras** menu. This window should appear:
+2. Select **Jam Box** from the **Extras** menu. This window should appear:
 
-  ![Screenshot of the Wasp Box running in Max 7.](media/patch-screenshot.png)
+  ![Screenshot of the Jam Box running in Max 7.](media/patch-screenshot.png)
 
 3. Turn on the audio, using the large red button that reads **Audio is OFF**. It will turn green and read **Audio is ON**.
 
 4. If you need to test your audio output, you can use the **Speaker Test** button to send out short bursts of white noise. To test just one channel at a time, you can use the buttons marked **1** and **2**.
 
-### Performing with the Wasp Box
+### Performing with the Jam Box
 
-The Wasp Box window indicates the **Current Cue** at the top left, and the **Next Cue** that will be played at the top right. Cues are numbered to match the bar numbers in which they occur, so the first cue number is 32.
+The Jam Box window indicates the **Current Cue** at the top left, and the **Next Cue** that will be played at the top right. Cues are numbered to match the bar numbers in which they occur, so the first cue number is 32.
 
 During a performance, use the large blue **Play Next** button or the <kbd>spacebar</kbd> to trigger the next cue at the appropriate moment.
 
-By default, keyboard shortcuts are enabled and you can use the following shortcuts to control the Wasp Box:
+By default, keyboard shortcuts are enabled and you can use the following shortcuts to control the Jam Box:
 
 |      shortcut       |                                  |
 |:-------------------:|:---------------------------------|
