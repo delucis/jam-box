@@ -6,32 +6,41 @@
   "version" : "0.3.0",
   "mastervol" : "-6.",
   "cues" : {
-    "32" : {
+    "19" : {
       "player-1" : "play jb.32-43.wav"
     },
-    "44" : {
+    "55" : {
       "player-2" : "play jb.44-50.wav 6"
     },
-    "53" : {
+    "90" : {
       "player-1" : "play jb.53.wav 9"
     },
-    "58" : {
+    "93" : {
       "player-2" : "play jb.58.wav 12"
     },
-    "70" : {
+    "101" : {
       "player-2" : "play jb.70.wav 8"
     },
-    "219" : {
+    "122" : {
       "player-2" : "play jb.219.wav"
     },
-    "232" : {
+    "127" : {
       "player-1" : "play jb.232.wav 18"
     },
-    "239" : {
+    "163" : {
       "player-2" : "play jb.239.wav 12"
     },
-    "247" : {
+    "209" : {
       "player-1" : "play jb.243.wav 6"
+    },
+    "220" : {
+      "player-2" : "play jb.243.wav 6"
+    },
+    "251" : {
+      "player-1" : "play jb.243.wav 6"
+    },
+    "277" : {
+      "player-2" : "play jb.243.wav 6"
     }
   }
 }
