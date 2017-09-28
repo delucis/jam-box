@@ -3,7 +3,7 @@
   "author" : "Chris Swithinbank",
   "description" : "Sample playback for Clara Iannotta’s dead wasps in the jam-jar (iii).",
   "website" : "https://github.com/delucis/jam-box",
-  "version" : "0.1.0",
+  "version" : "0.2.0",
   "mastervol" : "-6.",
   "cues" : {
     "19" : {
