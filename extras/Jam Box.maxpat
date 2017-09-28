@@ -39,20 +39,80 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"hidden" : 1,
+					"id" : "obj-21",
+					"maxclass" : "newobj",
+					"numinlets" : 3,
+					"numoutlets" : 3,
+					"outlettype" : [ "bang", "bang", "" ],
+					"patching_rect" : [ 585.0, 705.0, 46.0, 22.0 ],
+					"style" : "",
+					"text" : "sel 0 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"hidden" : 1,
+					"id" : "obj-20",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 720.0, 735.0, 115.0, 22.0 ],
+					"presentation_rect" : [ 422.0, 826.0, 0.0, 0.0 ],
+					"style" : "",
+					"text" : "bgfillcolor 0. 0. 0. 0."
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"hidden" : 1,
+					"id" : "obj-19",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 585.0, 735.0, 128.0, 22.0 ],
+					"style" : "",
+					"text" : "bgfillcolor 0. 0. 0. 0.65"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,
 					"enablehscroll" : 0,
 					"enablevscroll" : 0,
-					"id" : "obj-9",
+					"id" : "obj-6",
 					"lockeddragscroll" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "jb.midipedal.maxpat",
-					"numinlets" : 0,
-					"numoutlets" : 0,
+					"name" : "jb.adstatus.maxpat",
+					"numinlets" : 1,
+					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 885.0, 525.0, 240.0, 30.0 ],
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 585.0, 585.0, 540.0, 105.0 ],
 					"viewvisibility" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"angle" : 270.0,
+					"bgcolor" : [ 0.0, 0.0, 0.0, 0.65 ],
+					"id" : "obj-10",
+					"maxclass" : "panel",
+					"mode" : 0,
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 0.0, 0.0, 1275.0, 720.0 ],
+					"proportion" : 0.39,
+					"rounded" : 0,
+					"style" : ""
 				}
 
 			}
@@ -82,14 +142,14 @@
 					"clickthrough" : 0,
 					"enablehscroll" : 0,
 					"enablevscroll" : 0,
-					"id" : "obj-6",
+					"id" : "obj-9",
 					"lockeddragscroll" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "jb.adstatus.maxpat",
-					"numinlets" : 1,
+					"name" : "jb.midipedal.maxpat",
+					"numinlets" : 0,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 585.0, 585.0, 540.0, 105.0 ],
+					"patching_rect" : [ 885.0, 525.0, 240.0, 30.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -211,7 +271,47 @@
 
 			}
  ],
-		"lines" : [  ],
+		"lines" : [ 			{
+				"patchline" : 				{
+					"destination" : [ "obj-10", 0 ],
+					"hidden" : 1,
+					"source" : [ "obj-19", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-10", 0 ],
+					"hidden" : 1,
+					"source" : [ "obj-20", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-19", 0 ],
+					"hidden" : 1,
+					"source" : [ "obj-21", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-20", 0 ],
+					"hidden" : 1,
+					"source" : [ "obj-21", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-21", 0 ],
+					"hidden" : 1,
+					"source" : [ "obj-6", 0 ]
+				}
+
+			}
+ ],
 		"parameters" : 		{
 			"obj-1::obj-13" : [ "live.numbox", "live.numbox", 0 ],
 			"obj-9::obj-57::obj-29" : [ "live.button", "live.button", 0 ],
@@ -307,7 +407,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "jb.adstatus.maxpat",
+				"name" : "jb.midipedal.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/jam-box/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
@@ -321,7 +421,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "jb.midipedal.maxpat",
+				"name" : "jb.adstatus.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/jam-box/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
