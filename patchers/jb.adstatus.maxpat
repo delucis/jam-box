@@ -335,13 +335,13 @@
 			}
 , 			{
 				"box" : 				{
-					"annotation" : "Turn keyboard shortcuts on/off",
+					"annotation" : "Turn audio on/off",
 					"bgcolor" : [ 0.8, 0.0, 0.0, 1.0 ],
 					"bgoncolor" : [ 0.376471, 1.0, 0.176471, 1.0 ],
 					"fontface" : 1,
 					"fontname" : "System Font Regular",
 					"fontsize" : 24.0,
-					"hint" : "Turn keyboard shortcuts on/off",
+					"hint" : "Turn audio on/off",
 					"id" : "obj-102",
 					"legacytextcolor" : 1,
 					"maxclass" : "textbutton",
