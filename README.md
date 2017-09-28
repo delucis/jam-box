@@ -60,3 +60,21 @@ By default, keyboard shortcuts are enabled and you can use the following shortcu
 - To stop playback at any point during rehearsal, click the red **Stop** button, or hit the <kbd>escape</kbd> key.
 
 - Use the <kbd>◀</kbd> and <kbd>▶</kbd> arrow keys to set up the next cue, or use the <kbd>1</kbd> key to reset the next cue to the beginning. To select a specific cue, you can click on the **Next Cue** number and a menu will appear from which you can choose the cue you need.
+
+### Using a MIDI pedal
+
+If you prefer not to use the keyboard to trigger cues during a performance,
+you can use a MIDI pedal instead. Pressing the pedal will trigger the next event
+and is equivalent to using the <kbd>spacebar</kbd> or pressing the **Play Next**
+button.
+
+#### Configuring your pedal
+
+1. Click on **Set Up** to open the MIDI pedal configuration window.
+
+2. Select the correct MIDI device for your pedal.
+
+3. Select whether the next event should be triggered on `127` or `0`.
+
+In the lower half of the **Set Up** window, you will be able to see the pedal
+input as it comes in to help while configuring your MIDI pedal.
