@@ -309,7 +309,7 @@
 ,
 					"style" : "",
 					"text" : "pattr @bindto pedal-config::midi-port @autorestore 0",
-					"varname" : "u376010269"
+					"varname" : "u902003461"
 				}
 
 			}
@@ -321,14 +321,14 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 405.0, 90.0, 305.0, 22.0 ],
-					"restore" : [ "USB MIDI Device" ],
+					"restore" : [ "to Max 1" ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0
 					}
 ,
 					"style" : "",
 					"text" : "pattr @bindto pedal-config::midi-device @autorestore 0",
-					"varname" : "u873004609"
+					"varname" : "u289003463"
 				}
 
 			}
@@ -347,7 +347,7 @@
 ,
 					"style" : "",
 					"text" : "pattr @bindto pedal-config::trigger-value @autorestore 0",
-					"varname" : "u244004631"
+					"varname" : "u480003465"
 				}
 
 			}
@@ -1221,7 +1221,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 255.0, 165.0, 99.0, 22.0 ],
-									"restore" : [ "USB MIDI Device" ],
+									"restore" : [ "to Max 1" ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0
 									}
@@ -1436,7 +1436,7 @@
 								"box" : 								{
 									"fontname" : "System Font Regular",
 									"id" : "obj-8",
-									"items" : [ "to Max 1", ",", "to Max 2", ",", "IAC Driver Bus 1", ",", "USB MIDI Device" ],
+									"items" : [ "IAC Driver Bus 1", ",", "to Max 1", ",", "to Max 2" ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -1812,19 +1812,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-34",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 120.0, 285.0, 72.0, 22.0 ],
-					"style" : "",
-					"text" : "loadmess 1"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-33",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
@@ -2190,13 +2177,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-32", 0 ],
-					"source" : [ "obj-34", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-38", 1 ],
 					"source" : [ "obj-37", 0 ]
 				}
@@ -2403,10 +2383,10 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-57::obj-4" : [ "live.numbox", "live.numbox", 0 ],
 			"obj-57::obj-29" : [ "live.button", "live.button", 0 ],
 			"obj-57::obj-41" : [ "jb-pedal-hit-value", "jb-pedal-hit-value", 0 ],
-			"obj-57::obj-20" : [ "live.numbox[1]", "live.numbox", 0 ]
+			"obj-57::obj-20" : [ "live.numbox[1]", "live.numbox", 0 ],
+			"obj-57::obj-4" : [ "live.numbox", "live.numbox", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
