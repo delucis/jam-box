@@ -23,35 +23,35 @@
 		}
 ,
 		"101" : 		{
-			"player-2" : "play jb.101.wav"
+			"player-1" : "play jb.101.wav"
 		}
 ,
 		"122" : 		{
-			"player-3" : "play jb.122.wav"
+			"player-2" : "play jb.122.wav"
 		}
 ,
 		"127" : 		{
-			"player-1" : "play jb.127.wav"
+			"player-3" : "play jb.127.wav"
 		}
 ,
 		"163" : 		{
-			"player-2" : "play jb.163.wav"
+			"player-1" : "play jb.163.wav"
 		}
 ,
 		"209" : 		{
-			"player-3" : "play jb.209.wav"
+			"player-2" : "play jb.209.wav"
 		}
 ,
 		"220" : 		{
-			"player-1" : "play jb.220.wav"
+			"player-3" : "play jb.220.wav"
 		}
 ,
-		"251" : 		{
-			"player-2" : "play jb.251.wav"
+		"260" : 		{
+			"player-1" : "play jb.260.wav"
 		}
 ,
 		"277" : 		{
-			"player-3" : "play jb.277.wav"
+			"player-2" : "play jb.277.wav"
 		}
 
 	}
@@ -60,7 +60,7 @@
 		"pedal-config" : 		{
 			"trigger-value" : 0.0,
 			"midi-port" : 11.0,
-			"midi-device" : "USB MIDI Device"
+			"midi-device" : "Pedal Controller 1.0-19260177"
 		}
 
 	}
