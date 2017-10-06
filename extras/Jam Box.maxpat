@@ -60,7 +60,7 @@
 , 			{
 				"box" : 				{
 					"angle" : 270.0,
-					"bgcolor" : [ 0.0, 0.0, 0.0, 0.65 ],
+					"bgcolor" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"id" : "obj-10",
 					"maxclass" : "panel",
 					"mode" : 0,
@@ -127,6 +127,7 @@
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ 885.0, 525.0, 240.0, 30.0 ],
+					"varname" : "jb.midipedal",
 					"viewvisibility" : 1
 				}
 
@@ -333,11 +334,12 @@
  ],
 		"parameters" : 		{
 			"obj-1::obj-13" : [ "live.numbox", "live.numbox", 0 ],
+			"obj-9::obj-57::obj-4" : [ "live.numbox[2]", "live.numbox", 0 ],
 			"obj-9::obj-57::obj-29" : [ "live.button", "live.button", 0 ],
 			"obj-9::obj-57::obj-41" : [ "jb-pedal-hit-value", "jb-pedal-hit-value", 0 ],
 			"obj-2::obj-10" : [ "live.gain~[1]", "live.gain~", 0 ],
 			"obj-11::obj-10" : [ "live.gain~[3]", "live.gain~", 0 ],
-			"obj-9::obj-57::obj-27" : [ "live.text", "live.text", 0 ],
+			"obj-9::obj-57::obj-20" : [ "live.numbox[1]", "live.numbox", 0 ],
 			"obj-5::obj-10" : [ "live.gain~[2]", "Output Volume", 0 ],
 			"obj-3::obj-10" : [ "live.gain~", "live.gain~", 0 ]
 		}
