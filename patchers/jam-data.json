@@ -55,4 +55,14 @@
 		}
 
 	}
+,
+	"state" : 	{
+		"pedal-config" : 		{
+			"trigger-value" : 0.0,
+			"midi-port" : 11.0,
+			"midi-device" : "USB MIDI Device"
+		}
+
+	}
+
 }
