@@ -20,7 +20,7 @@ To install the `jam-box` package:
 A performance of _dead wasps in the jam-jar (iii)_ requires the following technical set-up:
 
 - a computer running the `jam-box` Max package
-- a stereo pair of loudspeakers within the orchestra for sound output
+- a stereo pair of loudspeakers in front of or either side of the quartet for sound output
 
 
 ## Operating the Jam Box
