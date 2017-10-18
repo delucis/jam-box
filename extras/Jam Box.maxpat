@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 0.0, 45.0, 1280.0, 732.0 ],
+		"rect" : [ 0.0, 44.0, 1280.0, 751.0 ],
 		"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -39,34 +39,6 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
-					"hidden" : 1,
-					"id" : "obj-17",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 1130.0, 45.0, 139.0, 22.0 ],
-					"style" : "",
-					"text" : "loadunique jb.cue-editor"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"hidden" : 1,
-					"id" : "obj-15",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 1130.0, 90.0, 53.0, 22.0 ],
-					"style" : "",
-					"text" : "pcontrol"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,
@@ -80,7 +52,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 645.0, 585.0, 540.0, 105.0 ],
+					"patching_rect" : [ 885.0, 585.0, 240.0, 105.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -106,7 +78,6 @@
 					"annotation" : "Open an interface to edit the cues",
 					"bgcolor" : [ 0.258824, 0.258824, 0.258824, 1.0 ],
 					"bgoncolor" : [ 0.55, 0.55, 0.55, 1.0 ],
-					"fontface" : 0,
 					"fontname" : "System Font Regular",
 					"fontsize" : 10.0,
 					"hint" : "Open an interface to edit the cues",
@@ -143,7 +114,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 465.0, 585.0, 165.0, 105.0 ],
+					"patching_rect" : [ 505.0, 585.0, 165.0, 105.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -259,7 +230,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 285.0, 585.0, 165.0, 105.0 ],
+					"patching_rect" : [ 335.0, 585.0, 165.0, 105.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -279,7 +250,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 105.0, 585.0, 165.0, 105.0 ],
+					"patching_rect" : [ 165.0, 585.0, 165.0, 105.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -345,6 +316,53 @@
 				}
 
 			}
+, 			{
+				"box" : 				{
+					"bgmode" : 0,
+					"border" : 0,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-12",
+					"lockeddragscroll" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "jb._buzzing-bow.maxpat",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"offset" : [ 0.0, 0.0 ],
+					"patching_rect" : [ 675.0, 585.0, 165.0, 105.0 ],
+					"viewvisibility" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"hidden" : 1,
+					"id" : "obj-17",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1130.0, 45.0, 139.0, 22.0 ],
+					"style" : "",
+					"text" : "loadunique jb.cue-editor"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"hidden" : 1,
+					"id" : "obj-15",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1130.0, 90.0, 53.0, 22.0 ],
+					"style" : "",
+					"text" : "pcontrol"
+				}
+
+			}
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
@@ -404,19 +422,20 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-5::obj-10" : [ "live.gain~[2]", "Output Volume", 0 ],
-			"obj-9::obj-57::obj-29" : [ "live.button", "live.button", 0 ],
-			"obj-9::obj-57::obj-41" : [ "jb-pedal-hit-value", "jb-pedal-hit-value", 0 ],
-			"obj-2::obj-10" : [ "live.gain~[1]", "live.gain~", 0 ],
-			"obj-9::obj-57::obj-4" : [ "live.numbox[2]", "live.numbox", 0 ],
-			"obj-9::obj-57::obj-20" : [ "live.numbox[1]", "live.numbox", 0 ],
+			"obj-12::obj-10" : [ "live.gain~[4]", "live.gain~", 0 ],
 			"obj-11::obj-10" : [ "live.gain~[3]", "live.gain~", 0 ],
 			"obj-3::obj-10" : [ "live.gain~", "live.gain~", 0 ],
-			"obj-1::obj-13" : [ "live.numbox", "live.numbox", 0 ]
+			"obj-9::obj-57::obj-41" : [ "jb-pedal-hit-value", "jb-pedal-hit-value", 0 ],
+			"obj-1::obj-13" : [ "live.numbox", "live.numbox", 0 ],
+			"obj-2::obj-10" : [ "live.gain~[1]", "live.gain~", 0 ],
+			"obj-9::obj-57::obj-20" : [ "live.numbox[1]", "live.numbox", 0 ],
+			"obj-9::obj-57::obj-29" : [ "live.button", "live.button", 0 ],
+			"obj-5::obj-10" : [ "live.gain~[2]", "Output Volume", 0 ],
+			"obj-9::obj-57::obj-4" : [ "live.numbox[2]", "live.numbox", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "jb.masterctrl.maxpat",
+				"name" : "jb._buzzing-bow.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/jam-box/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
@@ -430,14 +449,21 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "jb._getcuelist.maxpat",
+				"name" : "jb._dict.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/jam-box/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "jb._dict.maxpat",
+				"name" : "jb.masterctrl.maxpat",
+				"bootpath" : "~/Documents/Max 7/Packages/jam-box/patchers",
+				"patcherrelativepath" : "../patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "jb._getcuelist.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/jam-box/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
