@@ -34,8 +34,16 @@
 			"player-3" : "play jb.127.wav"
 		}
 ,
+		"144" :			{
+			"buzzing-bow" : "play -6."
+		}
+,
 		"163" : 		{
 			"player-1" : "play jb.163.wav"
+		}
+,
+		"199" :			{
+			"buzzing-bow" : "stop"
 		}
 ,
 		"209" : 		{
