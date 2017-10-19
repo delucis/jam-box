@@ -21,6 +21,7 @@ A performance of _dead wasps in the jam-jar (iii)_ requires the following techni
 
 - a computer running the `jam-box` Max package
 - a stereo pair of loudspeakers in front of or either side of the quartet for sound output
+- (optionally) a MIDI pedal and interface for cue triggering
 
 
 ## Operating the Jam Box
