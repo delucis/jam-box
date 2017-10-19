@@ -1,4 +1,4 @@
-# jam-box ![Build Status](https://travis-ci.com/delucis/jam-box.svg?token=vMggSwUMhr68RUsUzVGb&branch=master)
+# jam-box [![Build Status](https://travis-ci.com/delucis/jam-box.svg?token=vMggSwUMhr68RUsUzVGb&branch=master)](https://travis-ci.com/delucis/jam-box)
 
 :violin: Sample playback for Clara Iannotta’s [_dead wasps in the jam-jar (iii)_](http://claraiannotta.com/works/chamber-music/dead-wasps-in-the-jam-jar-iii-2017/)
 
