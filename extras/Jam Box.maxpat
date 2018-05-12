@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 7,
 			"minor" : 3,
-			"revision" : 4,
+			"revision" : 5,
 			"architecture" : "x86",
 			"modernui" : 1
 		}
@@ -318,25 +318,6 @@
 			}
 , 			{
 				"box" : 				{
-					"bgmode" : 0,
-					"border" : 0,
-					"clickthrough" : 0,
-					"enablehscroll" : 0,
-					"enablevscroll" : 0,
-					"id" : "obj-12",
-					"lockeddragscroll" : 0,
-					"maxclass" : "bpatcher",
-					"name" : "jb._buzzing-bow.maxpat",
-					"numinlets" : 0,
-					"numoutlets" : 0,
-					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 675.0, 585.0, 165.0, 105.0 ],
-					"viewvisibility" : 1
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"hidden" : 1,
 					"id" : "obj-17",
 					"maxclass" : "message",
@@ -422,20 +403,19 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-12::obj-10" : [ "live.gain~[4]", "live.gain~", 0 ],
-			"obj-11::obj-10" : [ "live.gain~[3]", "live.gain~", 0 ],
+			"obj-5::obj-10" : [ "live.gain~[2]", "Output Volume", 0 ],
 			"obj-3::obj-10" : [ "live.gain~", "live.gain~", 0 ],
-			"obj-9::obj-57::obj-41" : [ "jb-pedal-hit-value", "jb-pedal-hit-value", 0 ],
 			"obj-1::obj-13" : [ "live.numbox", "live.numbox", 0 ],
+			"obj-11::obj-10" : [ "live.gain~[3]", "live.gain~", 0 ],
+			"obj-9::obj-57::obj-41" : [ "jb-pedal-hit-value", "jb-pedal-hit-value", 0 ],
 			"obj-2::obj-10" : [ "live.gain~[1]", "live.gain~", 0 ],
 			"obj-9::obj-57::obj-20" : [ "live.numbox[1]", "live.numbox", 0 ],
 			"obj-9::obj-57::obj-29" : [ "live.button", "live.button", 0 ],
-			"obj-5::obj-10" : [ "live.gain~[2]", "Output Volume", 0 ],
 			"obj-9::obj-57::obj-4" : [ "live.numbox[2]", "live.numbox", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "jb._buzzing-bow.maxpat",
+				"name" : "jb.masterctrl.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/jam-box/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
@@ -449,21 +429,14 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "jb._dict.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/jam-box/patchers",
-				"patcherrelativepath" : "../patchers",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "jb.masterctrl.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/jam-box/patchers",
-				"patcherrelativepath" : "../patchers",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "jb._getcuelist.maxpat",
+				"bootpath" : "~/Documents/Max 7/Packages/jam-box/patchers",
+				"patcherrelativepath" : "../patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "jb._dict.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/jam-box/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",

@@ -4,12 +4,12 @@
 		"appversion" : 		{
 			"major" : 7,
 			"minor" : 3,
-			"revision" : 4,
+			"revision" : 5,
 			"architecture" : "x86",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 891.0, 423.0, 721.0, 346.0 ],
+		"rect" : [ 525.0, 423.0, 721.0, 346.0 ],
 		"bgcolor" : [ 0.952337, 0.952337, 0.952337, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -94,7 +94,7 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 3,
-							"revision" : 4,
+							"revision" : 5,
 							"architecture" : "x86",
 							"modernui" : 1
 						}
@@ -352,7 +352,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 15.0, 195.0, 195.0, 30.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 0.0, 240.0, 90.0 ],
+					"presentation_rect" : [ 0.0, 0.0, 405.0, 90.0 ],
 					"style" : "",
 					"text" : "Audio is OFF",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
