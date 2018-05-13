@@ -39,6 +39,122 @@
 		"title" : "Jam Box Cue Editor",
 		"boxes" : [ 			{
 				"box" : 				{
+					"annotation" : "Open an interface to add cues",
+					"bgcolor" : [ 0.094223, 0.717644, 0.097407, 1.0 ],
+					"bgoncolor" : [ 0.55, 0.55, 0.55, 1.0 ],
+					"fontname" : "System Font Regular",
+					"fontsize" : 10.0,
+					"hint" : "Open an interface to add cues",
+					"id" : "obj-32",
+					"legacytextcolor" : 1,
+					"maxclass" : "textbutton",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 1290.0, 165.0, 75.0, 30.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 330.0, 30.0, 75.0, 30.0 ],
+					"style" : "",
+					"text" : "Add Cue",
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textovercolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"usebgoncolor" : 1,
+					"usetextovercolor" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"hidden" : 1,
+					"id" : "obj-33",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1290.0, 210.0, 142.0, 22.0 ],
+					"style" : "",
+					"text" : "loadunique jb.cue-maker"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"angle" : 270.0,
+					"bgcolor" : [ 0.0, 0.0, 0.0, 0.0 ],
+					"id" : "obj-2",
+					"maxclass" : "panel",
+					"mode" : 0,
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 903.0, 382.0, 225.0, 45.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 0.0, 0.0, 525.0, 330.0 ],
+					"proportion" : 0.39,
+					"rounded" : 0,
+					"style" : ""
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"annotation" : "Open an interface to delete cues",
+					"bgcolor" : [ 0.74497, 0.0, 0.016273, 1.0 ],
+					"bgoncolor" : [ 0.55, 0.55, 0.55, 1.0 ],
+					"fontname" : "System Font Regular",
+					"fontsize" : 10.0,
+					"hint" : "Open an interface to delete cues",
+					"id" : "obj-4",
+					"legacytextcolor" : 1,
+					"maxclass" : "textbutton",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 1140.0, 165.0, 75.0, 30.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 420.0, 30.0, 75.0, 30.0 ],
+					"style" : "",
+					"text" : "Delete Cue",
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textovercolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"usebgoncolor" : 1,
+					"usetextovercolor" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"hidden" : 1,
+					"id" : "obj-30",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1140.0, 210.0, 145.0, 22.0 ],
+					"style" : "",
+					"text" : "loadunique jb.cue-deleter"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"hidden" : 1,
+					"id" : "obj-31",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1140.0, 240.0, 53.0, 22.0 ],
+					"style" : "",
+					"text" : "pcontrol"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-68",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
@@ -76,7 +192,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 513.0, 555.0, 43.0, 22.0 ],
-					"presentation_rect" : [ 524.0, 664.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "pipe 2"
 				}
@@ -116,7 +231,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 465.0, 585.0, 115.0, 22.0 ],
-					"presentation_rect" : [ 499.0, 577.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "jb.v #0-current-fade"
 				}
@@ -305,7 +419,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 150.0, 155.0, 59.0, 20.0 ],
-									"presentation_rect" : [ 183.0, 289.0, 0.0, 0.0 ],
 									"style" : "",
 									"text" : "stop args"
 								}
@@ -332,7 +445,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 120.0, 150.0, 30.0, 30.0 ],
-									"presentation_rect" : [ 152.0, 285.0, 0.0, 0.0 ],
 									"style" : ""
 								}
 
@@ -614,24 +726,6 @@
 			}
 , 			{
 				"box" : 				{
-					"angle" : 270.0,
-					"bgcolor" : [ 0.0, 0.0, 0.0, 0.0 ],
-					"id" : "obj-2",
-					"maxclass" : "panel",
-					"mode" : 0,
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 903.0, 382.0, 225.0, 45.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 0.0, 525.0, 330.0 ],
-					"proportion" : 0.39,
-					"rounded" : 0,
-					"style" : ""
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"annotation" : "",
 					"bgcolor" : [ 0.164706, 0.623529, 0.839216, 1.0 ],
 					"bgoncolor" : [ 0.105882, 0.411765, 0.556863, 1.0 ],
@@ -828,7 +922,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 15.0, 390.0, 59.0, 22.0 ],
-									"presentation_rect" : [ 623.5, 352.0, 0.0, 0.0 ],
 									"style" : "",
 									"text" : "tosymbol"
 								}
@@ -842,7 +935,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 45.0, 330.0, 259.0, 22.0 ],
-									"presentation_rect" : [ 653.5, 277.0, 0.0, 0.0 ],
 									"style" : "",
 									"text" : "sprintf set player-%s \\\"%s %s\\\""
 								}
@@ -856,7 +948,6 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "bang", "bang", "clear" ],
 									"patching_rect" : [ 15.0, 60.0, 79.0, 22.0 ],
-									"presentation_rect" : [ 623.5, 97.0, 0.0, 0.0 ],
 									"style" : "",
 									"text" : "t b b clear"
 								}
@@ -883,7 +974,6 @@
 									"numoutlets" : 4,
 									"outlettype" : [ "dictionary", "", "", "" ],
 									"patching_rect" : [ 15.0, 360.0, 78.0, 22.0 ],
-									"presentation_rect" : [ 623.5, 322.0, 0.0, 0.0 ],
 									"saved_object_attributes" : 									{
 										"embed" : 0,
 										"parameter_enable" : 0
@@ -902,7 +992,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 285.0, 240.0, 90.0, 22.0 ],
-									"presentation_rect" : [ 893.5, 157.0, 0.0, 0.0 ],
 									"style" : "",
 									"text" : "v #0-audio-edit"
 								}
@@ -916,7 +1005,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 165.0, 120.0, 113.0, 22.0 ],
-									"presentation_rect" : [ 773.5, 157.0, 0.0, 0.0 ],
 									"style" : "",
 									"text" : "v #0-command-edit"
 								}
@@ -930,7 +1018,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 390.0, 240.0, 83.0, 22.0 ],
-									"presentation_rect" : [ 1013.5, 157.0, 0.0, 0.0 ],
 									"style" : "",
 									"text" : "v #0-gain-edit"
 								}
@@ -944,7 +1031,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 45.0, 120.0, 93.0, 22.0 ],
-									"presentation_rect" : [ 653.5, 157.0, 0.0, 0.0 ],
 									"style" : "",
 									"text" : "v #0-player-edit"
 								}
@@ -2384,6 +2470,29 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-31", 0 ],
+					"hidden" : 1,
+					"source" : [ "obj-30", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-33", 0 ],
+					"hidden" : 1,
+					"source" : [ "obj-32", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-31", 0 ],
+					"source" : [ "obj-33", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-25", 1 ],
 					"source" : [ "obj-34", 0 ]
 				}
@@ -2435,6 +2544,14 @@
 				"patchline" : 				{
 					"destination" : [ "obj-34", 0 ],
 					"source" : [ "obj-37", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-30", 0 ],
+					"hidden" : 1,
+					"source" : [ "obj-4", 0 ]
 				}
 
 			}
