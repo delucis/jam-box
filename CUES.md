@@ -1,4 +1,10 @@
-# Cue Syntax
+# Cues
+
+The easiest way to edit cues is to use the built-in cue editor. Open the Jam Box in Max and click **Edit Cues** in the top-right corner. From here you can tweak existing cues or add and delete cues.
+
+If you’re still interested in editing the cue files by hand, read on.
+
+## Cue Syntax
 
 Cues and other data used by the Jam Box are stored in `patchers/jam-data.json`, which is written using the [JSON format][30af9ea1]. You can edit this file in Max, or use a text editor like TextEdit or [Atom](https://atom.io/).
 
