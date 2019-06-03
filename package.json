@@ -4,6 +4,7 @@
   "description": "Sample playback for Clara Iannotta’s dead wasps in the jam-jar (iii).",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "version": "versync -b sync -a",
     "build": "npm run copy && npm run zip && npm run clean",
     "copy": "cpy '**/*' '!jam-box/*' '!.gitignore' '!.travis.yml' '!.gitattributes' '!node_modules/**/*' '!jam-box.zip' 'jam-box/' --parents --nodir",
     "zip": "bestzip jam-box.zip jam-box/",
@@ -15,9 +16,11 @@
   },
   "author": "Chris Swithinbank <swithinbank@gmail.com> (http://chrisswithinbank.net/)",
   "homepage": "https://github.com/delucis/jam-box#readme",
+  "versionedSources": "patchers/jam-data.json",
   "devDependencies": {
     "bestzip": "^2.1.4",
     "cpy-cli": "git+https://github.com/chimon2000/cpy-cli.git",
-    "rimraf": "^2.6.3"
+    "rimraf": "^2.6.3",
+    "versync": "^4.1.0"
   }
 }
