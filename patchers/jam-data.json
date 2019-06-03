@@ -7,51 +7,67 @@
 	"mastervol" : "0.",
 	"cues" : 	{
 		"19" : 		{
-			"player-1" : "play jb.19.wav"
+			"player-1" : "play jb.19.wav 0.0000"
 		}
 ,
-		"55" : 		{
-			"player-2" : "play jb.55.wav"
+		"61" : 		{
+			"player-2" : "play jb.61.wav 0.0000"
 		}
 ,
-		"90" : 		{
-			"player-3" : "play jb.90.wav"
+		"96" : 		{
+			"player-2" : "stop 4757.62"
 		}
 ,
-		"93" : 		{
-			"player-1" : "play jb.93.wav"
+		"98" : 		{
+			"player-3" : "play jb.98.wav 0.0000"
 		}
 ,
-		"101" : 		{
-			"player-1" : "play jb.101.wav"
-		}
-,
-		"122" : 		{
-			"player-2" : "play jb.122.wav"
-		}
-,
-		"127" : 		{
-			"player-3" : "play jb.127.wav"
+		"156" : 		{
+			"player-1" : "play jb.156.wav -6.0000"
 		}
 ,
 		"163" : 		{
-			"player-1" : "play jb.163.wav"
+			"player-2" : "play jb.163.wav 3.0000"
 		}
 ,
-		"209" : 		{
-			"player-2" : "play jb.209.wav"
+		"172" : 		{
+			"player-3" : "play jb.172.wav 8.0000"
 		}
 ,
-		"220" : 		{
-			"player-3" : "play jb.220.wav"
+		"173" : 		{
+			"player-2" : "stop 10655.75"
+		}
+,
+		"183" : 		{
+			"player-1" : "play jb.172.wav 8.0000"
+		}
+,
+		"215" : 		{
+			"player-1" : "play jb.215.wav 4.0000"
+		}
+,
+		"185" : 		{
+			"player-2" : "play jb.185.wav 1.0000"
+		}
+,
+		"200" : 		{
+			"player-3" : "play jb.200.wav 6.0000"
+		}
+,
+		"256" : 		{
+			"player-2" : "play jb.256.wav 0.0000"
+		}
+,
+		"258" : 		{
+			"player-3" : "play jb.258.wav 0.0000"
 		}
 ,
 		"260" : 		{
-			"player-1" : "play jb.260.wav"
+			"player-1" : "play jb.260.wav 0.0000"
 		}
 ,
-		"277" : 		{
-			"player-2" : "play jb.277.wav"
+		"263" : 		{
+			"player-2" : "play jb.263.wav 0.0000"
 		}
 
 	}
