@@ -40,7 +40,7 @@ A performance of _dead wasps in the jam-jar (iii)_ requires the following techni
 
 ### Performing with the Jam Box
 
-The Jam Box window indicates the **Current Cue** at the top left, and the **Next Cue** that will be played at the top right. Cues are numbered to match the bar numbers in which they occur, so the first cue number is 32.
+The Jam Box window indicates the **Current Cue** at the top left, and the **Next Cue** that will be played at the top right. Cues are numbered to match the bar numbers in which they occur, so the first cue number is 19.
 
 During a performance, use the large blue **Play Next** button or the <kbd>spacebar</kbd> to trigger the next cue at the appropriate moment.
 
