@@ -18,7 +18,7 @@
   "homepage": "https://github.com/delucis/jam-box#readme",
   "versionedSources": "patchers/jam-data.json",
   "devDependencies": {
-    "bestzip": "^2.1.4",
+    "bestzip": "^2.1.7",
     "cpy-cli": "git+https://github.com/chimon2000/cpy-cli.git",
     "rimraf": "^2.6.3",
     "versync": "^4.1.0"
